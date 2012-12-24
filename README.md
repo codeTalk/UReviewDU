@@ -12,6 +12,3 @@ Features:
 + Socialization input via facebook,twitter,or google+ .
 + Ability to contact adminstrators via jQuery overlay forms.
 + Fully customizable CSS+HTML5
-+ 
-
-## Checkout the live version @ www.ureviewdu.com
