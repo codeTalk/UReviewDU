@@ -12,3 +12,4 @@ Features:
 + Socialization input via facebook,twitter,or google+ .
 + Ability to contact adminstrators via jQuery overlay forms.
 + Fully customizable CSS+HTML5
++ Utilizes SHA-512 Cryptographic storage to create and store user passwords.
