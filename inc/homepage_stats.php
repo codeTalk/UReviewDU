@@ -1,0 +1,3 @@
+<?php $pdo2 = new PDO($h1, $u, $p); $pdo2->setAttribute( PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION ); $sth2 = $pdo2->prepare('SELECT count(cID) FROM Course;'); $sth2->execute(array()); ?>
+<?php $pdo3 = new PDO($h1, $u, $p); $pdo3->setAttribute( PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION ); $sth3 = $pdo3->prepare('SELECT count(pID) FROM Professor;'); $sth3->execute(array()); ?>
+<?php $pdo4 = new PDO($h1, $u, $p); $pdo4->setAttribute( PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION ); $sth4 = $pdo4->prepare('SELECT count(dID) FROM Department;'); $sth4->execute(array()); ?>
